@@ -1,0 +1,52 @@
+DAY --1
+
+Nodes architecture 
+Blocking vs Non blocking code
+Types of modules:
+1)Inbuilt modules
+2)Custom modules  --Example-Calculator: sum(),multiply(,Pi)
+3) NPM modules(third party)
+--npmjs--single
+--Any new js file is new module itself
+package.json
+
+
+DAY--2 
+
+File System module
+Streams
+ASync IO vs Streams
+Custom events
+Callbacks
+Promises : then(), catch()--- Synchronous style of coding
+Events --click,blurr, mouseover
+
+onClick="display()"
+
+Custom events-user authenticated
+log the request
+make in entry in db
+send acknowledgment to the client side app
+
+
+Exercise
+Try to create a class that extends the EventEmitter
+
+
+DAY--3
+
+Web Server
+Restful Server
+MongoDB
+
+npm install express ---local installations ---modules(functions/objects)
+
+npm install -g nodemon ---global installations ---command line tool
+
+npm install morgon---logs all the messages on the screen
+
+npm install ejs--save
+nodemon express Server
+
+1) manually add the nodemon path to the 'path variable'
+2) from Node command --- insatll nodemon
