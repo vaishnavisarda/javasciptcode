@@ -5,4 +5,4 @@ function fixStart(arg1){
     let c = arg1.charAt(0);
     return c + arg1.slice(1).replace(new RegExp(c,"g"), "*");
 }
-console.log(fixStart("babble"));
+console.log(fixStart("giggle"));
