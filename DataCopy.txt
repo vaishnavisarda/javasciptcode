@@ -1,2 +1,0 @@
-All files system operations have synchronous and asynchronous forms..
-The asynchronous form always takes a completion callback as its last argument. 
