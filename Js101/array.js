@@ -5,14 +5,14 @@
 
 
 
-let choices=["Mango","banana","Apple","Kiwi","Lichi"];
-for(let i=0;i<=choices.length;i++){
+let choices=["Mango","banana","Apple","Kiwi","orange"];
+for(let i=0;i<=choices.length-1;i++){
     console.log( `My # ${i} choice  is ${choices[i]}`);
 
 }
 
 
-for(let i =0;i<=choices.length;i++){
+for(let i =0;i<=choices.length-1;i++){
     let choice = i+1;
     let choice_suffix ;
     if(choice ==1){

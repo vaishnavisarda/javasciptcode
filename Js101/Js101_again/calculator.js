@@ -10,7 +10,6 @@
 // Calculate what percentage that area is of the squared result (#3).
 
 function squareNumber(num){
-
     let squr = num*num;
     console.log(`The result of squaring the number ${num} is ${squr}`);
 }
