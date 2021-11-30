@@ -44,7 +44,7 @@ function creditcard(num) {
     }    
     return true;
 }
-console.log(creditcard('1111111111111112'));
+console.log(creditcard('1111111111111110'));
 console.log(creditcard('abcdefghijklmnop'));
 console.log(creditcard('92939302344'));
 console.log(creditcard('8333ghgg2939302344'));
