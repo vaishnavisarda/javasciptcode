@@ -21,34 +21,31 @@ function creditcard(num) {
         return false
     }
     else {
-        
+
         for (let i = 0; i <= num.length; i++) {
-            let cardnum = num[i];
-            cardnum = Number.parseInt(num[i]);
-        }
-            if (!Number.isInteger(num)) {
-              
-                if(num % 2 !==0){
+            num = parseInt(num,10);
+            if (Number.isInteger(num)) {
+               
+                if (num % 2 !== 0) {
                     return false;
-                }   
-                    let sum ;
-                    for(let i=0;i<num.length;i++){
-                       sum+=num[i];
-                       console.log(sum);
-                       if(sum<=16){
-                       return false;
-                       }
-                    }
-            }
-            else
-                {
-                return true;
                 }
-          }  
-        
+            }
+            let sum = 0;
+            for (let i = 0; i < num.length; i++) {
+                sum += num[i];
+                // console.log(sum);
+                // console.log(typeof num);
+                if (sum <= 16) {
+                    return false;
+                }
+            }
+
+        }
+    }
+
     return true;
 }
-console.log(creditcard('1111111111111110'));
+console.log(creditcard('1111111111111120'));
 console.log(creditcard('abcdefghijklmnop'));
 console.log(creditcard('92939302344'));
 console.log(creditcard('8333ghgg2939302344'));
