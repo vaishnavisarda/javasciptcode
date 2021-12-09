@@ -1,0 +1,6 @@
+7PR32-3D6H4-8BVP8-6M74X-MWPRH
+
+
+
+!num.length==16
+num.length !==16
