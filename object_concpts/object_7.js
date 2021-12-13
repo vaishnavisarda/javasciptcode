@@ -2,18 +2,15 @@
 // Sample Data: dog
 // Expected Output: ["d", "do", "dog", "o", "og", "g"]
 
+function  subset(str){
+  let ans=[];
 
-String.prototype.sub_String = function() 
-{
-  let subset = [];
-  for (let m = 0; m < this.length; m++) 
-  {
-    for (let n = m+1; n<this.length+1; n++) 
-    {
-      subset.push(this.slice(m,n));
+  for(let i=0;i<str.length;i++){
+    for(let j=i+1;j<str.length+1;j++){
+      ans.push(str.slice(i,j))
     }
   }
-  return subset;
-};
+  return ans;
+}
 
-console.log("dog".sub_String());
+console.log(subset("Dog"));
