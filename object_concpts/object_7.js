@@ -13,4 +13,11 @@ function  subset(str){
   return ans;
 }
 
-console.log(subset("Dog"));
+ console.log(subset("vaishnavi"));
+//  let str ="Dog";
+//  console.log(str.slice(0,1));
+//  console.log(str.slice(0,2));
+//  console.log(str.slice(0,3));
+//  console.log(str.slice(1,2));
+//  console.log(str.slice(1,3));
+//  console.log(str.slice(2,3));
