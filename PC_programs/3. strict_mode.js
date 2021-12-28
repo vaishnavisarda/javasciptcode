@@ -10,11 +10,6 @@ var myobject = {
 
 
 console.log(myobject.myproperty1);
-
-//strict mode inside function
-
-function func1() {
-    "use strict"
     b = "a"
-}
+
 

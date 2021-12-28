@@ -19,13 +19,6 @@ process.stdin.on('end', function() {
 function readLine() {
     return inputString[currentLine++];
 }
-
-/*
- * Complete the 'miniMaxSum' function below.
- *
- * The function accepts INTEGER_ARRAY arr as parameter.
- */
-
 function miniMaxSum(arr) {
     //console.log(arr);
   arr.sort(function(a, b){return a - b});
@@ -44,13 +37,8 @@ function miniMaxSum(arr) {
       }
       //console.log(again_sum);
        console.log(`${again_sum} ${sum}`);
-     // console.log(slice_last);
-     
-     
+     // console.log(slice_last);    
 }
- 
-
-
 function main() {
 
     const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));

@@ -29,7 +29,6 @@ if(cond==SUB){
 if(cond==MULT){
     console.log(g);
 }
-if(cond==DIV)
-{
+if(cond==DIV){
     console.log(h);
 }

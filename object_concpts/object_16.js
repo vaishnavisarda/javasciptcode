@@ -1,7 +1,7 @@
 function invert_key_value(obj) {
     var result = {};
     var keys = _keys(obj);
-    for (var i = 0, length = keys.length; i < length; i++) {
+    for (let i = 0, length = keys.length; i < length; i++) {
       result[obj[keys[i]]] = keys[i];
     }
     return result;
@@ -19,4 +19,4 @@ function isObject(obj)
     var type = typeof obj;
     return type === 'function' || type === 'object' && !!obj;
   }
-console.log(invert_key_value({red: "#FF0000", green: "#00FF00", white: "#FFFFFF"}));
+console.log(invert_key_value({vaishnavi: "#1", Sumit: "#2", Toshniwal: "#3"}));

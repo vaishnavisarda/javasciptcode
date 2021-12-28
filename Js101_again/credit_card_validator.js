@@ -34,14 +34,11 @@ function creditcard(num) {
         }
     }
 }
-<<<<<<< HEAD
 console.log(creditcard('1111111111111110'));
-=======
 console.log(creditcard('11111111111111'));
 console.log(creditcard('1111111111111211'));
 console.log(creditcard('1111111111111020'));//Failure
 console.log(creditcard('8700000000000000'));//failure
->>>>>>> c78130df09a9cb2e4e1173af6f4c6e0a8c225eaf
 console.log(creditcard('abcdefghijklmnop'));
 console.log(creditcard('92939302344'));
 console.log(creditcard('8333ghgg2939302344'));
