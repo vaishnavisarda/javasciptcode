@@ -21,10 +21,14 @@ function creditcard(num) {
                 while (num) {
                     sum += num % 10;
                     num = Math.floor(num / 10);
+                    console.log(num);
                 }
             }
             if (sum > 16) {
-                return true;
+                // for(let i=0;i<=num;i++){
+                
+                return "valid : true, number :"+sum ;
+                
             }
             else {
                 return false;
@@ -37,6 +41,7 @@ function creditcard(num) {
 }
 
 console.log(creditcard('2222-3333-4444-6666'));
+
 console.log(creditcard('1111-1111-1111-1110'));
 console.log(creditcard('1111-1111-1111-11'));
 console.log(creditcard('1111-1111-1111-1211'));
