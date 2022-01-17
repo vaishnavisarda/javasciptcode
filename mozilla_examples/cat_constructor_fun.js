@@ -5,6 +5,7 @@ function Cat(name,breed,color){
     this.greeting = function() {
       console.log('Hello , said '+ this.name + ' the '+ this.breed + ' cat , with '+this.color +' color');
     }
+    console.log(this.name)
   }
 
   let cat1 =new Cat("Kitty","Cymric","black");

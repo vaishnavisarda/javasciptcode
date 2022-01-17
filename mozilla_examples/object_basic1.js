@@ -18,18 +18,18 @@ console.log(cat.color);
 
 console.log(cat.greeting);
 cat.greeting()
-// //this = {}
-// console.log(defGreeting());
-// //this = cat
-// console.log(cat.greeting());
-// console.log(defGreeting.call(cat));
-// //this = {
-// // name : "name"
-// //}
-// console.log(defGreeting.call({
-//     name: "Sumit"
-// }));
+//this = {}
+console.log(defGreeting());
+//this = cat
+console.log(cat.greeting());
+console.log(defGreeting.call(cat));
+//this = {
+// name : "name"
+//}
+console.log(defGreeting.call({
+    name: "Sumit"
+}));
 
-// console.log(cat.greeting.call({
-//     name: "name"
-// }));
+console.log(cat.greeting.call({
+    name: "name"
+}));
