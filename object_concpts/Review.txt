@@ -1,0 +1,7 @@
+Object.keys
+setInterval
+9 with object
+10 generic
+11 print the expected output
+13,14,15 - Try to implement
+16.17 - Need to be implemented
