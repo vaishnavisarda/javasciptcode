@@ -1,0 +1,6 @@
+Case | Value of this inside function | Is some new property on this inside function is reflected outside and how?
+
+
+
+defgreeting() | global | undefined
+cat.greeting() | {name: 'Vaishnavi', color: 'black', greeting: ƒ} = cat | cat.some 'def'

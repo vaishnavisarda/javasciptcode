@@ -69,7 +69,7 @@ let a = {
     name: "something"
 };
 
-inner.call(a)
+let i =inner.call(a)
 
 function C() {
     this.name = "C";
@@ -85,13 +85,16 @@ function sPerson() {
 function sTeacher() {
     sPerson()
     this.subject = "subject name"
+    console.log(this);
 }
 
 let t = new sTeacher();
-
+console.log(t);
 function sTeacher1() {
     sPerson.call(this);
     this.subject = "subject name";
+    console.log(this);
 }
 
 let t1 = new sTeacher1();
+console.log(t1)

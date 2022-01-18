@@ -1,16 +1,33 @@
-case | Value| 
+case | Value| Is some new property on this inside function is reflected outside and how?
 
-defGreeting() | global
-cat.greeting() | {name: 'Vaishnavi', color: 'black', greeting: ƒ}
-defGreeting.call(cat) | {name: 'Vaishnavi', color: 'black', greeting: ƒ, some: 'def'}
+1)defGreeting() | global  | undefined
+2)cat.greeting() | {name: 'Vaishnavi', color: 'black', greeting: ƒ} | cat.some ='def'
+3)defGreeting.call(cat) | {name: 'Vaishnavi', color: 'black', greeting: ƒ, some: 'def'} | cat.some='def'
 
-defGreeting.call({    |
+4)defGreeting.call({    |
     name: "Sumit"     |
-});                   |  {name: 'Sumit'}
+});                   |  {name: 'Sumit'}    |
 
 
-(cat.greeting.call({   | {name: 'name'}
+5)(cat.greeting.call({   | {name: 'name'}     | 
     name: "name"       |
 }));                   |
 
-let greet = new defGreeting() | defGreeting
+6)let greet = new defGreeting() | defGreeting
+
+7)inner.call(a) | {name: 'something'}
+
+8)let c = new C(); | C {name: 'C'}
+
+9) sPerson() |  global
+
+10)let t = new sTeacher(); |sTeacher
+
+11)let t1 = new sTeacher1(); | sTeacher1
+
+12) sPerson.call(this); |sTeacher1
+
+13) line 88--sTeacher {subject: 'subject name'}
+
+14) line 96-- sTeacher1 {name: 'person name', subject: 'subject name'}
+
