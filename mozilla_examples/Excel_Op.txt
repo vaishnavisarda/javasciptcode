@@ -1,0 +1,16 @@
+case | Value| 
+
+defGreeting() | global
+cat.greeting() | {name: 'Vaishnavi', color: 'black', greeting: ƒ}
+defGreeting.call(cat) | {name: 'Vaishnavi', color: 'black', greeting: ƒ, some: 'def'}
+
+defGreeting.call({    |
+    name: "Sumit"     |
+});                   |  {name: 'Sumit'}
+
+
+(cat.greeting.call({   | {name: 'name'}
+    name: "name"       |
+}));                   |
+
+let greet = new defGreeting() | defGreeting
