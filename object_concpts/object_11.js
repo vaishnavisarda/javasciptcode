@@ -4,15 +4,19 @@
 // ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]
 
 
-let obj={
-    length : 5,
-    name : "Vaishnavi",
-    arguments : 2,
-    caller : "Sumit",
-    prototype : "length",
-    isArray : "yes",
-    observe : "yes",
-    unobserve : "No"
-}
 
-console.log(obj);
+   function  all_properties(arg){
+       console.log(arg);
+    
+    return arg;
+   } 
+    
+
+
+
+   
+   console.log(all_properties(Array));
+
+    
+       
+       

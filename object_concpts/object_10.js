@@ -40,17 +40,14 @@ library.sort(function(a,b){
     return a.libraryID-b.libraryID
 });
 
-
 function sort_object(){
-  console.log(library[0].title+ " " + library[0].author + " "+
-  library[0].libraryID );
-  
-  console.log(library[1].title+ " " + library[1].author + " "+
-  library[1].libraryID)
-  
-  console.log(library[2].title+ " " + library[2].author + " "+
-  library[2].libraryID);
-}
 
+for(let i in library){
+   
+   console.log(`${i}: ${library[i]}`);
+   console.log(library[i]);
+    }
+      
+}
 sort_object();
 

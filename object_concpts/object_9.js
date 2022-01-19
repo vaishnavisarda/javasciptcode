@@ -2,9 +2,16 @@
 // Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user. 
 
 function circle(radius){
-    let area = 3.14*radius*radius;
-    console.log(area);
-    let perimeter = 2*3.14*radius;
-    console.log(perimeter);
+    this.radius=radius;
+
+    this.area =function(){
+        return Math.PI *this.radius*this.radius;
+    }
+     this.perimeter =function(){
+         return 2*Math.PI*this.radius;
+     }
+
 }
- circle(10);
+let  c =new circle(4);
+console.log("Area =",c.area().toFixed(2));
+console.log("Perimeter =",c.perimeter().toFixed(2));
