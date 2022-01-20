@@ -5,6 +5,12 @@ let obj ={
     "husband" : "Sumit",
     "study" :"BCA"
 }
-let ans =Object.keys(obj).map((key)=>[key , obj[key]]);
 
-console.log(ans);
+let keys = Object.keys(obj);
+let list = [];
+
+for(let i = 0; i < keys.length; i++) {
+    list.push([keys[i]+" : " +obj[keys[i]]]);
+}
+
+console.log(list);

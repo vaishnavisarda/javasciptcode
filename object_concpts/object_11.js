@@ -6,9 +6,15 @@
 
 
    function  all_properties(arg){
-       console.log(arg);
+      let ownProperties = Object.getOwnPropertyNames(arg);
+      let allProperties =[];
+      for(let i=0;i<=ownProperties.length;i++){
+         if(typeof arg[ownProperties[i]] =='function'){
+            allProperties.push(ownProperties[i]);
+         }
+      }
     
-    return arg;
+    return allProperties;
    } 
     
 
